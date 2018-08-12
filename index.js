@@ -6,6 +6,7 @@ var attrsSorterOptions = {};
  * Overrides 'posthtml-attrs-sorter' default configuration.
  * Useful to change order priorities.
  * @public
+ *
  * @param {Object} options - Options that overrides default.
  * @param {Object[]} options.order - List of attribute names ordered by priority.
  */
@@ -16,6 +17,7 @@ function updateDefaultAttrsSorterOptions(options) {
 /**
  * Get HTML string result, with sorted attributes.
  * @private
+ *
  * @param {string} htmlInput
  * @returns {Promise}
  */
@@ -33,6 +35,7 @@ function getSortedResult(htmlInput) {
 /**
  * Receives `N` HTML string arguments and returns Promise
  * that will output sorted version of given HTML strings.
+ *
  * @public
  * @returns {Promise}
  */
