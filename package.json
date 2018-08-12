@@ -1,0 +1,28 @@
+{
+  "name": "html-attrs-sorter-promisified",
+  "version": "1.0.0",
+  "description": "Promise-based API to sort html attributes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonvictor/html-attrs-sorter-promisified.git"
+  },
+  "keywords": [
+    "html",
+    "attributes",
+    "promise-based"
+  ],
+  "author": "Ramon Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramonvictor/html-attrs-sorter-promisified/issues"
+  },
+  "homepage": "https://github.com/ramonvictor/html-attrs-sorter-promisified#readme",
+  "devDependencies": {
+    "posthtml": "^0.11.3",
+    "posthtml-attrs-sorter": "^1.1.0"
+  }
+}
