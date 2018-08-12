@@ -83,7 +83,7 @@ Since this module uses `posthtml-attrs-sorter` under to hood, it inherits [its d
 
 It's very simple to override the `order` configuration, though. Check the following example:
 
-```
+```js
 // Gives "id" and "type" a higher priority
 sorter.updateDefaultAttrsSorterOptions({
   "order": [
